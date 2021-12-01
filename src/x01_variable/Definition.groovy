@@ -1,10 +1,10 @@
 package x01_variable
 
-// 强类型定义
+// 声明变量并指定类型
 int x = 1
 println "x is " + x + ", type is " + x.class
 
-// 使用def定义变量，编译器将自动推断类型
+// 使用def声明变量，编译器将自动推断类型
 def y = 1
 println "y is " + y + ", type is " + y.class
 
